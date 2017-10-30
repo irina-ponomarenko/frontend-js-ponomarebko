@@ -2,11 +2,16 @@ body{
     margin:0;
     padding:0;
 }
-.conteiner{
+.header{
+    width: 100%;
+    margin:0 auto;
+}
+.conteiner,
+.container-header{
     width: 1063px;
     margin: 0 auto;
 }
-header{
+.container-header{
     height: 91px;
     display: flex;
     justify-content: space-between;
@@ -157,7 +162,7 @@ p{
     font-family: 'Playfair Display',serif;
     color: black;
 }
-.conreiner-footer span{
+.container-footer span{
     margin-left: 15px;
 }
 .social-list li{
