@@ -33,37 +33,45 @@ nav a{
 nav ul li:last-child{
     margin-right: 0;
 }
-.first-post,
-.post{
+.post,
+.post-fotodiary{
     width: 901px;
     margin: 0 auto;
     padding-top: 126px;
 }
-.first-post span{
-    color: #b4ad9e;
+.post-fotodiary a{
     font-family: 'Myriad Pro', Arial;
     font-size: 14px;
     text-transform: uppercase;
+    outline-style: none;
+    text-decoration: none;
+    color: #b4ad9e;
 }
-.first-post  h2{
+.post-fotodiary a:hover{
+    cursor: hand;
+}
+.post-fotodiary  h2{
     font-family: 'Playfair Display',serif;
     font-size: 31px;
+    padding-top: 37px;
+    padding-bottom: 20px;
 }
-.first-post p{
+.post-fotodiary p{
     line-height: 24px;
     font-family: 'Playfair Display',serif;
     font-size: 14px;
     margin-bottom: 37px;
 }
-.first-post a{
-    color: #b4ad9e;
-    text-decoration: none;
+.post{
+    display: flex;
+    justify-content: space-between;
 }
 .post ul{
+    display: flex;
+    justify-content: space-between;
     padding: 0;
 }
 .post li{
-    display: inline-block;
     list-style-type: none;
     margin-right: 58px;
 }
@@ -81,6 +89,8 @@ nav ul li:last-child{
     font-family: 'Playfair Display',serif;
     font-size: 29px;
     text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .lifestyle p{
     font-family: 'Playfair Display',serif;
@@ -88,15 +98,17 @@ nav ul li:last-child{
     color: #626262;
     width: 419px;
     text-align: justify;
+    padding-top: 20px;
 }
 .conteiner-newsletter{
     width: 100%;
     margin: 0 auto;
     background-color: #f0f0f0;
     padding-bottom: 76px;
+    padding-top: 76px;
 }
 .conteiner-newsletter h2 {
-    padding: 78px;
+    padding-bottom: 78px;
     text-align: center;
     font-size: 30px;
     font-family: 'Playfair Display',serif;
@@ -119,14 +131,16 @@ nav ul li:last-child{
     height: 54px;
     font-size: 14px;
     font-family: 'Playfair Display',serif;
+    outline: 0;
 }
-.letter input[type="submit"]{
+.letter button{
     width: 32px;
     height: 20px;
 	background-image: url(../image/button.png);
 	background-repeat: no-repeat;
 	border: none;
 	background-color: #f0f0f0;
+    outline: 0;
 }
 #load{
     background-color: white;
@@ -147,7 +161,7 @@ nav ul li:last-child{
 .footer{
     background-color: #f0f0f0;
 }
-.conreiner-footer{
+.container-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
